@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:layout_width="match_parent"
+		android:id="@+id/linearLayout2" android:layout_height="wrap_content">
+		<ImageButton android:layout_width="match_parent" android:onClick="previous"
+			android:layout_weight="2" android:id="@+id/imageButton1"
+			android:layout_height="wrap_content" android:src="@drawable/previous"></ImageButton>
+		<ImageButton android:layout_width="match_parent" android:onClick="play"
+			android:layout_weight="2" android:id="@+id/imageButton2"
+			android:layout_height="wrap_content" android:src="@drawable/play"></ImageButton>
+		<ImageButton android:layout_width="match_parent" android:onClick="pause"
+			android:layout_weight="2" android:id="@+id/imageButton3"
+			android:layout_height="wrap_content" android:src="@drawable/pause"></ImageButton>
+		<ImageButton android:layout_width="match_parent" android:onClick="next"
+			android:layout_weight="2" android:id="@+id/imageButton4"
+			android:layout_height="wrap_content" android:src="@drawable/next"></ImageButton>
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+		android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content" android:text="00:00"
+			android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/textView1"></TextView>
+		<SeekBar android:id="@+id/seekBar1" android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:layout_weight="2"></SeekBar>
+		<TextView android:layout_width="wrap_content" android:text="00:00"
+			android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/textView2"></TextView>
+	</LinearLayout>
+	<ListView android:id="@+id/listView1" android:layout_height="wrap_content" android:layout_width="match_parent"></ListView>
+</LinearLayout>

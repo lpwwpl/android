@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="www.baidu.com"
+        android:textColorLink="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1234567890"
+        android:maxLength="9"
+        android:password="true"
+        android:text="123456789abcdefg" />
+
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:maxLength="6"
+        android:password="true" 
+        android:hint="密码不超过六位"/>
+
+</LinearLayout>

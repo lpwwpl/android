@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textColor="@color/b_red" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="@dimen/size"
+        android:layout_height="@dimen/size"
+        android:text="@string/hello_world"
+        android:textColor="@color/l_red" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="#FFFF0000"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#FF0000FF"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#FF00FF00"
+        android:text="@string/hello_world" />
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LinearLayoutDemo02</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="name">用&#160;户&#160;名&#160;:</string>
+    <string name="passwd">密&#160;&#160;&#160;&#160;&#160;码&#160;&#160;:</string>
+    <string name="login">登&#160;录</string>
+    <string name="reg">注&#160;册</string>
+
+</resources>
